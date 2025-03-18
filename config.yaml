@@ -1,0 +1,8 @@
+title: "Your Name - Portfolio"
+description: "A personal portfolio showcasing my resume and projects."
+baseurl: ""
+url: "https://yourusername.github.io"
+theme: minima  # You can replace this with another Jekyll theme
+plugins:
+  - jekyll-feed
+  
