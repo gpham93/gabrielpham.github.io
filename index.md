@@ -3,10 +3,12 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Portfolio
-Hi, I'm **Your Name**, a **Data Analyst & Consultant** specializing in **Knowledge Graphs, AI, and Data Remediation**.
-
-💼 **[Download My Resume](resume.pdf)**
+<div class="hero">
+    <img src="images/profile.jpg" alt="Your Name" width="150px" class="hero-img">
+    <h1>Hello, I'm <span style="color: #007bff;">Your Name</span></h1>
+    <p>A Data Analyst & Consultant specializing in Knowledge Graphs, AI, and Data Remediation.</p>
+    <a href="resume.pdf" class="btn btn-primary">Download Resume</a>
+</div>
 
 ---
 ## 🚀 Projects
