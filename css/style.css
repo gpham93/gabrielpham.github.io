@@ -8,12 +8,19 @@ h1, h2 {
     color: #007bff;
 }
 
+h2.projects-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #007bff;
+}
+
 h3.project-name {
     font-size: 1.5em;
     font-weight: bold;
     color: #333;
-    text-align: left;  /* Ensures project names align left */
-    margin-left: 0;    /* Removes extra margin */
+    text-align: left; /* Ensures project names align left */
+    margin-left: 0; /* Removes extra margin */
 }
 
 header {
@@ -23,20 +30,22 @@ header {
     padding: 50px;
 }
 
+/* Fix alignment for project sections */
 .project {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: rgb(26, 24, 24);
+    display: block; /* Change from flex to block for full-width alignment */
+    background: #fff; /* Light background for contrast */
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    text-align: left; /* Ensures everything inside aligns left */
 }
 
 .project img {
     max-width: 150px;
     border-radius: 10px;
+    display: block; /* Makes sure images don't interfere with text layout */
+    margin-bottom: 10px;
 }
 
 footer {
