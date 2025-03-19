@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
 /* Global Page Styles */
+/* Ensure full-page dark background */
 html, body {
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color: #1e1e1e; /* Dark grey background */
-    color: white; /* Default text color */
+    background-color: #121212 !important; /* Dark background for whole site */
+    color: white;
     margin: 0;
     padding: 0;
     height: 100%;
+}
+
+/* Fix Bootstrap's white background issue */
+.container {
+    background: transparent !important; /* Remove white background */
+    padding: 20px; /* Keeps spacing without changing colors */
+}
+
+/* Optional: Add a full-width wrapper */
+.page-wrapper {
+    background-color: #121212; /* Match full-page background */
+    min-height: 100vh; /* Ensures it covers the full viewport */
+    width: 100%;
+    padding: 20px 0;
 }
 
 /* Headings */
