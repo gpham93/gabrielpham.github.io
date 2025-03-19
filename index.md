@@ -40,3 +40,13 @@ title: Home
     </div>
 </div>
 </section>
+
+<!-- New Favorite Music Section -->
+<section class="music-section">
+    <h2 class="music-title">🎵 Favorite Music</h2>
+    <p>Here are some of my favorite playlists on Spotify:</p>
+
+    <div class="music-playlist">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EVHGWrwldPRtj?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+</section>
