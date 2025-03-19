@@ -149,3 +149,29 @@ footer {
 .page-content {
     color: white; /* Ensures project descriptions are visible */
 }
+/* Ensure project section text is white */
+.projects-section {
+    color: white; /* Ensures project descriptions are visible */
+    padding: 40px 20px;
+}
+
+/* Improve styling for projects */
+.project {
+    background: #292929; /* Dark grey to match theme */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Ensure project links are visible */
+.project a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: #0056b3;
+}
