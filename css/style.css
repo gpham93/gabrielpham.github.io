@@ -201,3 +201,10 @@ header {
     background-color: #0056b3 !important;
     color: white !important;
 }
+
+
+.about-section, .contact-section {
+    color: white;
+    text-align: left;
+    padding: 40px 20px;
+}
