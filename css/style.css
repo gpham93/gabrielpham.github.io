@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
 /* Global Page Styles */
-body {
+html, body {
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #1e1e1e; /* Dark grey background */
     color: white; /* Default text color */
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 /* Headings */
