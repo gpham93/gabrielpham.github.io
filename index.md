@@ -2,6 +2,9 @@
 layout: default
 title: Home
 ---
+<p align="center">
+  <img src="images/banner.jpeg" width="100%" alt="Website Banner">
+</p>
 
 <div class="hero">
     <img src="https://media.licdn.com/dms/image/v2/C5603AQFK1gqFFEeF5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1578091131462?e=1747872000&v=beta&t=lF8zYcmlnW17dZ1CBFByGb98yqEEAPaJnGcb3203NVQ" alt="Gabriel Pham" width="150px" class="hero-img">
