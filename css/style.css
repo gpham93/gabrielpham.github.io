@@ -137,60 +137,64 @@ header {
 }
 
 /* Projects Section */
-.project {
-    display: block; /* Ensures block layout */
-    background: #292929; /* Dark grey background instead of white */
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
-    margin-bottom: 20px;
-    text-align: left;
-}
-
-/* Project Images */
-.project img {
-    max-width: 150px;
-    border-radius: 10px;
-    display: block; /* Makes sure images don't interfere with text layout */
-    margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-    background: #1e1e1e; /* Dark grey to match body */
-    color: white;
-    padding: 15px;
-    position: relative;
-    width: 100%;
-}
-
-/* Project Page Text */
-.page-content {
-    color: white; /* Ensures project descriptions are visible */
-}
-/* Ensure project section text is white */
 .projects-section {
-    color: white; /* Ensures project descriptions are visible */
+    text-align: center;
     padding: 40px 20px;
 }
 
-/* Improve styling for projects */
+/* Grid Layout for Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 projects per row */
+    gap: 20px; /* Space between projects */
+    justify-content: center;
+}
+
+/* Individual Project Cards */
 .project {
-    background: #292929; /* Dark grey to match theme */
+    background: #292929; /* Dark grey background */
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
-/* Ensure project links are visible */
-.project a {
-    color: #007bff;
+/* Add hover effect */
+.project:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Images */
+.project-img {
+    width: 100%; /* Make images responsive */
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Project Title */
+.project-name {
+    font-size: 1.5em;
     font-weight: bold;
-    text-decoration: none;
+    color: white; /* Ensure visibility */
 }
 
-.project a:hover {
-    color: #0056b3;
+/* Button */
+.btn-primary {
+    background-color: #007bff !important;
+    color: white !important;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease, color 0.3s ease;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3 !important;
+    color: white !important;
 }
