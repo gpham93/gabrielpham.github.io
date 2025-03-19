@@ -11,11 +11,11 @@ title: Home
 </div>
 
 ---
-### 🚀 Projects
-## **Knowledge Graph for Mortgage Data**
+## **🚀 Projects**
+### Knowledge Graph for Mortgage Data
 Developed a graph-based enterprise data model to optimize mortgage processes.  
 🔗 [View Project](https://github.com/yourusername/project1)
 
-## **Client Outreach Automation**
+### Client Outreach Automation
 Built an automated outreach system using Python and data analytics.  
 🔗 [View Project](https://github.com/yourusername/project2)
