@@ -58,8 +58,15 @@ footer {
     position: relative;
     width: 100%;
 }
-.banner img {
-    width: 100%;
-    height: auto;
-    display: block;
+.banner {
+    width: 100vw;  /* Makes the banner span the full width of the viewport */
+    height: auto;  /* Keeps aspect ratio */
+    overflow: hidden;  /* Prevents unwanted spacing */
 }
+
+.banner img {
+    width: 100%;  /* Ensures the image fully covers the banner */
+    height: auto;  /* Adjusts height while maintaining aspect ratio */
+    display: block;  /* Removes extra white space below the image */
+}
+
