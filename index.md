@@ -2,9 +2,6 @@
 layout: default
 title: Home
 ---
-<p align="center">
-  <img src="images/banner2.jpeg" width="100%" alt="Website Banner">
-</p>
 
 <section class="hero">
     <div class="hero-container">
