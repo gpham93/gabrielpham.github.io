@@ -73,26 +73,31 @@ footer {
 /* Hero Section Styling */
 .hero {
     background-color: #222; /* Dark background */
-    color: white; /* Light text */
-    padding: 60px 0;
+    color: white;
+    padding: 100px 0; /* Increased height */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Hero Container */
 .hero-container {
     display: flex;
     max-width: 1200px;
     width: 90%;
     align-items: center;
     gap: 40px;
+    background: rgba(255, 255, 255, 0.1); /* Slight transparency */
+    padding: 40px;
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
-/* Image Styling */
+/* Square Image Styling */
 .hero-img {
-    width: 200px; /* Adjust image size */
+    width: 250px; /* Adjust size */
     height: auto;
-    border-radius: 50%; /* Makes the image circular */
+    border-radius: 5px; /* Slight rounded edges for a softer look */
 }
 
 /* Text Styling */
@@ -101,28 +106,29 @@ footer {
 }
 
 .hero-text h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .hero-text p {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-bottom: 20px;
 }
 
 .highlight {
-    color: #007bff; /* Highlighted name */
+    color: #007bff;
 }
 
 /* Button Styling */
 .btn-primary {
     background-color: #007bff;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    transition: background 0.3s ease;
 }
 
 .btn-primary:hover {
