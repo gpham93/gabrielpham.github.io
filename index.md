@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <p align="center">
-  <img src="images/AdobeStock_271297554.jpeg" width="100%" alt="Website Banner">
+  <img src="images/banner2.jpeg" width="100%" alt="Website Banner">
 </p>
 
 <div class="hero">
