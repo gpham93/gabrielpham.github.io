@@ -11,7 +11,7 @@ title: Home
 </div>
 
 ---
-## **🚀 Projects**
+# **🚀 Projects**
 ### Knowledge Graph for Mortgage Data
 Developed a graph-based enterprise data model to optimize mortgage processes.  
 🔗 [View Project](https://github.com/yourusername/project1)
