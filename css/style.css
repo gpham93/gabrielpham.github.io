@@ -156,7 +156,10 @@ header {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    text-align: center;
+    text-align: left;
+    color: white; /* Ensure text is visible on dark background */
+    font-size: 1.1em;
+    margin-bottom: 15px;
     transition: transform 0.3s ease;
 }
 
