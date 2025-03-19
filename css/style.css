@@ -204,7 +204,7 @@ header {
 
 
 .about-section, .contact-section {
-    color: white;
+    color: white !important;
     text-align: left;
     padding: 40px 20px;
 }
