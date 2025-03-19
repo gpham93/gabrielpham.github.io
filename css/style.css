@@ -170,11 +170,13 @@ header {
 
 /* Project Images */
 .project-img {
-    width: 100%; /* Make images responsive */
-    max-width: 250px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    width: 100%; /* Ensures responsiveness */
+    max-width: 250px; /* Controls max width */
+    height: 180px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures images are cropped to fit */
+    border-radius: 10px; /* Slight rounded corners for a modern look */
+    display: block;
+    margin: 0 auto 10px auto; /* Centers images */
 }
 
 /* Project Title */
