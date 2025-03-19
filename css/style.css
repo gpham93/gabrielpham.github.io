@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
+/* Global Page Styles */
 body {
     font-family: 'IBM Plex Sans', sans-serif;
-    background-color: #1a1a1a; /* Dark gray background */
-    color: white; /* Default text color for the whole page */
+    background-color: #1e1e1e; /* Dark grey background */
+    color: white; /* Default text color */
     margin: 0;
     padding: 0;
 }
 
+/* Headings */
 h1, h2 {
     text-align: center;
     color: #007bff;
@@ -20,14 +22,16 @@ h2.projects-title {
     color: #007bff;
 }
 
+/* Project Name Styling */
 h3.project-name {
     font-size: 1.5em;
     font-weight: bold;
-    color: #333;
-    text-align: left; /* Ensures project names align left */
-    margin-left: 0; /* Removes extra margin */
+    color: white; /* Ensures text is readable on dark background */
+    text-align: left;
+    margin-left: 0;
 }
 
+/* Header */
 header {
     text-align: center;
     background: linear-gradient(45deg, #007bff, #0056b3);
@@ -35,47 +39,9 @@ header {
     padding: 50px;
 }
 
-/* Fix alignment for project sections */
-.project {
-    display: block; /* Change from flex to block for full-width alignment */
-    background: #fff; /* Light background for contrast */
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    text-align: left; /* Ensures everything inside aligns left */
-}
-
-.project img {
-    max-width: 150px;
-    border-radius: 10px;
-    display: block; /* Makes sure images don't interfere with text layout */
-    margin-bottom: 10px;
-}
-
-footer {
-    text-align: center;
-    background: #222;
-    color: white;
-    padding: 15px;
-    position: relative;
-    width: 100%;
-}
-.banner {
-    width: 100vw;  /* Makes the banner span the full width of the viewport */
-    height: auto;  /* Keeps aspect ratio */
-    overflow: hidden;  /* Prevents unwanted spacing */
-}
-
-.banner img {
-    width: 100%;  /* Ensures the image fully covers the banner */
-    height: auto;  /* Adjusts height while maintaining aspect ratio */
-    display: block;  /* Removes extra white space below the image */
-}
-
 /* Hero Section Styling */
 .hero {
-    background-color: #222; /* Dark background */
+    background-color: #222; /* Slightly darker than body for contrast */
     color: white;
     padding: 100px 0; /* Increased height */
     display: flex;
@@ -96,14 +62,14 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 
-/* Square Image Styling */
+/* Hero Image (Square) */
 .hero-img {
     width: 250px; /* Adjust size */
     height: auto;
     border-radius: 5px; /* Slight rounded edges for a softer look */
 }
 
-/* Text Styling */
+/* Hero Text */
 .hero-text {
     max-width: 600px;
 }
@@ -136,4 +102,50 @@ footer {
 
 .btn-primary:hover {
     background-color: #0056b3;
+}
+
+/* Banner */
+.banner {
+    width: 100vw; /* Makes the banner span the full width of the viewport */
+    height: auto; /* Keeps aspect ratio */
+    overflow: hidden; /* Prevents unwanted spacing */
+}
+
+.banner img {
+    width: 100%; /* Ensures the image fully covers the banner */
+    height: auto; /* Adjusts height while maintaining aspect ratio */
+    display: block; /* Removes extra white space below the image */
+}
+
+/* Projects Section */
+.project {
+    display: block; /* Ensures block layout */
+    background: #292929; /* Dark grey background instead of white */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow */
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Project Images */
+.project img {
+    max-width: 150px;
+    border-radius: 10px;
+    display: block; /* Makes sure images don't interfere with text layout */
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #1e1e1e; /* Dark grey to match body */
+    color: white;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+/* Project Page Text */
+.page-content {
+    color: white; /* Ensures project descriptions are visible */
 }
