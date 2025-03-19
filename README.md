@@ -4,7 +4,7 @@
 ---
 
 ## 🌐 Live Demo
-🔗 **[Visit My Portfolio](https://gpham93.github.io/)**
+🔗 **[Visit My Portfolio](https://gpham93.github.io/gabrielpham.github.io/)**
 
 ---
 
