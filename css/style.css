@@ -70,3 +70,61 @@ footer {
     display: block;  /* Removes extra white space below the image */
 }
 
+/* Hero Section Styling */
+.hero {
+    background-color: #222; /* Dark background */
+    color: white; /* Light text */
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Image Styling */
+.hero-img {
+    width: 200px; /* Adjust image size */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+}
+
+/* Text Styling */
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #007bff; /* Highlighted name */
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
