@@ -202,11 +202,11 @@ header {
 
 /* Profile Picture Next to Name */
 .profile-pic {
-    width: 60px; /* Smaller size */
-    height: 60px; /* Keep aspect ratio */
-    border-radius: 50%; /* Makes it circular */
-    margin-right: 10px; /* Spacing between image and text */
-    vertical-align: middle; /* Aligns it properly with text */
-    object-fit: cover; /* Ensures proper scaling */
+    width: 40px; /* Make profile picture much smaller */
+    height: 40px;
+    border-radius: 50%; /* Keeps it circular */
+    margin-right: 8px; /* Space between profile pic and text */
+    vertical-align: middle; /* Aligns with text */
+    object-fit: cover; /* Ensures it scales correctly */
 }
 
