@@ -214,3 +214,12 @@ header {
 .music-section {
     color:white !important;
 }
+
+/* Profile Picture Next to Name */
+.profile-pic {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%; /* Makes it circular */
+    margin-right: 10px;
+    vertical-align: middle; /* Aligns with text */
+}
