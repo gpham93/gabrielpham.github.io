@@ -1,3 +1,28 @@
 <footer class="text-center bg-dark text-white py-3">
     <p>© 2024 Gabriel Pham</p>
+    <p>Current Time: <span id="global-clock"></span></p>
 </footer>
+
+<script>
+    function updateClock() {
+        const now = new Date();
+        
+        // Convert to different time zones
+        const options = { timeZone: "UTC", hour12: false, hour: "2-digit", minute: "2-digit", second: "2-digit" };
+        const utcTime = now.toLocaleTimeString("en-US", options);
+        
+        const estOptions = { timeZone: "America/New_York", hour12: false, hour: "2-digit", minute: "2-digit", second: "2-digit" };
+        const estTime = now.toLocaleTimeString("en-US", estOptions);
+
+        const pstOptions = { timeZone: "America/Los_Angeles", hour12: false, hour: "2-digit", minute: "2-digit", second: "2-digit" };
+        const pstTime = now.toLocaleTimeString("en-US", pstOptions);
+
+        // Display the clock in the footer
+        document.getElementById("global-clock").innerHTML = 
+            `UTC: ${utcTime} | EST: ${estTime} | PST: ${pstTime}`;
+    }
+
+    // Update clock every second
+    setInterval(updateClock, 1000);
+    updateClock();
+</script>

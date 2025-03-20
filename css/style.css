@@ -209,4 +209,17 @@ header {
     vertical-align: middle !important; /* Aligns with text */
     object-fit: cover !important; /* Ensures it scales correctly */
 }
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+    font-size: 1em;
+    position: relative;
+    width: 100%;
+}
 
+#global-clock {
+    font-weight: bold;
+    color: #00ffcc; /* Light blue-green color */
+}
