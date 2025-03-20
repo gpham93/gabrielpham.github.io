@@ -4,17 +4,11 @@ title: Home
 ---
 
 <section class="hero">
-    <div class="hero-container">
-        <img src="{{ "/images/stock_image3.jpeg" | relative_url }}" alt="Your Image" class="hero-img">
-        <div class="hero-text">
-            <img src="https://media.licdn.com/dms/image/v2/C5603AQFK1gqFFEeF5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1578091131462?e=1747872000&v=beta&t=lF8zYcmlnW17dZ1CBFByGb98yqEEAPaJnGcb3203NVQ" 
-                alt="Profile Picture" class="profile-pic">
-            <div>
-                <h1>Hi, I'm <span class="highlight">Gabriel Pham!</span></h1>
-                <p>A Data Analyst & Consultant specializing in Knowledge Graphs, AI, and Data Remediation.</p>
-                <a href="resume.pdf" class="btn btn-primary">Download Resume</a>
-            </div>
-        </div>
+    <img src="{{ "/images/stock_image3.jpeg" | relative_url }}" alt="Your Image" class="hero-img">
+    <div class="hero-text">
+        <h1>Hi, I'm <span class="highlight">Gabriel Pham!</span></h1>
+        <p>A Data Analyst & Consultant specializing in Knowledge Graphs, AI, and Data Remediation.</p>
+        <a href="resume.pdf" class="btn btn-primary">Download Resume</a>
     </div>
 </section>
 

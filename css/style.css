@@ -57,48 +57,36 @@ header {
 
 /* Hero Section Styling */
 .hero {
-    background-color: #222; /* Slightly darker than body for contrast */
+    background-color: #222; /* Darker than body for contrast */
     color: white;
-    padding: 100px 0; /* Reduce padding to make it smaller */
+    padding: 100px 50px; /* Reduce padding */
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Pushes text and image apart */
     align-items: center;
+    height: 400px; /* Adjust height */
 }
 
-/* Hero Container */
-.hero-container {
-    display: flex;
-    max-width: 1200px;
-    width: 90%;
-    align-items: center;
-    gap: 40px;
-    background: rgba(255, 255, 255, 0.1); /* Slight transparency */
-    padding: 80px; /* Reduce padding */
-    border-radius: 15px; /* Rounded edges */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
-}
-
-/* Hero Image - Enlarged */
-.hero-img {
-    width: 100%; /* Make it fill more of the container */
-    max-width: 400px; /* Increase max width */
+/* Hero Image - Expands to Left */
+.hero img {
+    width: 45%; /* Make image take up more space */
     height: auto;
-    border-radius: 5px; /* Slight rounded edges for a softer look */
+    border-radius: 5px; /* Slight rounded edges */
 }
 
 /* Hero Text */
 .hero-text {
-    max-width: 500px; /* Reduce width so image has more space */
+    width: 50%;
+    text-align: left;
 }
 
 .hero-text h1 {
-    font-size: 2.5em; /* Slightly smaller to fit */
+    font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .hero-text p {
-    font-size: 1.2em; /* Reduce text size slightly */
+    font-size: 1.2em;
     margin-bottom: 20px;
 }
 
