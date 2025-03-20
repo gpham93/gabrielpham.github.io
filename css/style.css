@@ -188,20 +188,22 @@ header {
 
 /* Button */
 .btn-primary {
-    background-color: #007bff !important;
-    color: white !important;
+    background: linear-gradient(45deg, #007bff, #0056b3) !important; /* Blue gradient */
+    color: white !important; /* Ensures text stays white */
     font-weight: bold;
     padding: 12px 24px;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: background 0.3s ease, color 0.3s ease;
     border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
+/* Button Hover Effect */
 .btn-primary:hover {
-    background-color: #0056b3 !important;
+    background: linear-gradient(45deg, #0056b3, #004494) !important; /* Darker gradient */
     color: white !important;
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
 
