@@ -107,21 +107,22 @@ header {
 
 /* Button Styling */
 .btn-primary {
-    background-color: #007bff !important; /* Keep blue background */
-    color: white !important; /* Force white text */
+    background: linear-gradient(45deg, #007bff, #0056b3) !important; /* Blue gradient */
+    color: white !important; /* Ensures text stays white */
     font-weight: bold;
     padding: 12px 24px;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: background 0.3s ease, color 0.3s ease;
-    border: none; /* Optional: Remove default Bootstrap border */
+    border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-/* Ensure text stays white when hovering */
+/* Button Hover Effect */
 .btn-primary:hover {
-    background-color: #0056b3 !important; /* Darker blue on hover */
-    color: white !important; /* Keep text white on hover */
+    background: linear-gradient(45deg, #0056b3, #004494) !important; /* Darker gradient */
+    color: white !important;
+    transform: scale(1.05); /* Slight zoom effect */
 }
 /* Banner */
 .banner {
