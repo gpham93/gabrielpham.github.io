@@ -106,7 +106,10 @@ header {
 }
 
 /* Button Styling */
-.btn-primary {
+/* Blue Gradient Button - Overrides Bootstrap */
+.btn-primary,
+.btn-primary:link,
+.btn-primary:visited {
     background: linear-gradient(45deg, #007bff, #0056b3) !important; /* Blue gradient */
     color: white !important; /* Ensures text stays white */
     font-weight: bold;
@@ -114,16 +117,24 @@ header {
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    border: none;
+    border: none !important; /* Prevents Bootstrap border styles */
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
 /* Button Hover Effect */
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
     background: linear-gradient(45deg, #0056b3, #004494) !important; /* Darker gradient */
     color: white !important;
     transform: scale(1.05); /* Slight zoom effect */
 }
+
+/* Ensures button text is always white */
+.btn-primary:active {
+    background: linear-gradient(45deg, #004494, #002f6c) !important;
+    color: white !important;
+}
+
 /* Banner */
 .banner {
     width: 100vw; /* Makes the banner span the full width of the viewport */
@@ -187,33 +198,14 @@ header {
     color: white; /* Ensure visibility */
 }
 
-/* Button */
-.btn-primary {
-    background: linear-gradient(45deg, #007bff, #0056b3) !important; /* Blue gradient */
-    color: white !important; /* Ensures text stays white */
-    font-weight: bold;
-    padding: 12px 24px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    border: none;
-    transition: background 0.3s ease, transform 0.2s ease;
-}
-
-/* Button Hover Effect */
-.btn-primary:hover {
-    background: linear-gradient(45deg, #0056b3, #004494) !important; /* Darker gradient */
-    color: white !important;
-    transform: scale(1.05); /* Slight zoom effect */
-}
-
-
+/*Force Text in contact and about sections to be white*/
 .about-section, .contact-section {
     color: white !important;
     text-align: left;
     padding: 40px 20px;
 }
 
+/*Force Text in music section to be white*/
 .music-section {
     color:white !important;
 }
