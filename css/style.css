@@ -59,7 +59,7 @@ header {
 .hero {
     background-color: #222; /* Slightly darker than body for contrast */
     color: white;
-    padding: 150px 0; /* Increased height */
+    padding: 100px 0; /* Reduce padding to make it smaller */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,31 +73,32 @@ header {
     align-items: center;
     gap: 40px;
     background: rgba(255, 255, 255, 0.1); /* Slight transparency */
-    padding: 120px;
+    padding: 80px; /* Reduce padding */
     border-radius: 15px; /* Rounded edges */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 
-/* Hero Image (Square) */
+/* Hero Image - Enlarged */
 .hero-img {
-    width: 500px; /* Adjust size */
+    width: 100%; /* Make it fill more of the container */
+    max-width: 400px; /* Increase max width */
     height: auto;
     border-radius: 5px; /* Slight rounded edges for a softer look */
 }
 
 /* Hero Text */
 .hero-text {
-    max-width: 600px;
+    max-width: 500px; /* Reduce width so image has more space */
 }
 
 .hero-text h1 {
-    font-size: 2.8em;
+    font-size: 2.5em; /* Slightly smaller to fit */
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .hero-text p {
-    font-size: 1.3em;
+    font-size: 1.2em; /* Reduce text size slightly */
     margin-bottom: 20px;
 }
 
