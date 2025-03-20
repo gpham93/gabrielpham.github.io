@@ -24,22 +24,22 @@ title: Home
 <div class="projects-grid">
     <div class="project">
         <img src="{{ "/images/project1.jpeg" | relative_url }}" alt="Project 1" class="project-img">
-        <h3 class="project-name">📌 Knowledge Graph for Mortgage Data</h3>
-        <p>Developed a graph-based enterprise data model to optimize mortgage processes.</p>
+        <h3 class="project-name">📌 Knowledge Graph for Fraud Detection using Financial Transaction Data/h3>
+        <p>Created a fraud detection system that maps financial transactions, identifies anomalies, and detects suspicious activities in real time.</p>
         <a href="https://github.com/yourusername/project1" class="btn btn-primary">View Project</a>
     </div>
 
     <div class="project">
         <img src="{{ "/images/project2.jpeg" | relative_url }}" alt="Project 2" class="project-img">
-        <h3 class="project-name">📌 Client Outreach Automation</h3>
-        <p>Built an automated outreach system using Python and data analytics.</p>
+        <h3 class="project-name">📌 Movie Recommendation Engine using Knowledge Graph/h3>
+        <p>Built a knowledge graph-powered recommendation engine to generate personalized movie suggestions based on genres, actors, and user preferences.</p>
         <a href="https://github.com/yourusername/project2" class="btn btn-primary">View Project</a>
     </div>
 
     <div class="project">
         <img src="{{ "/images/project3.jpeg" | relative_url }}" alt="Project 3" class="project-img">
-        <h3 class="project-name">📌 Financial Market Prediction Model</h3>
-        <p>Created a machine learning model to predict stock market trends.</p>
+        <h3 class="project-name">📌 Gen AI Chatbot for Financial Investing</h3>
+        <p>Developed a chatbot powered by a knowledge graph to provide context-aware investing insights and market trend analysis.</p>
         <a href="https://github.com/yourusername/project3" class="btn btn-primary">View Project</a>
     </div>
 </div>
@@ -48,7 +48,7 @@ title: Home
 <!-- New Favorite Music Section -->
 <section class="music-section">
     <h2 class="music-title">🎵 Favorite Music</h2>
-    <p>Here are some of my favorite playlists on Spotify:</p>
+    <p>Here is some of my favorite music on Spotify:</p>
 
     <div class="music-playlist">
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EVHGWrwldPRtj?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
