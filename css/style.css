@@ -59,7 +59,7 @@ header {
 .hero {
     background-color: #222; /* Slightly darker than body for contrast */
     color: white;
-    padding: 100px 0; /* Increased height */
+    padding: 200px 0; /* Increased height */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,14 +73,14 @@ header {
     align-items: center;
     gap: 40px;
     background: rgba(255, 255, 255, 0.1); /* Slight transparency */
-    padding: 40px;
+    padding: 160px;
     border-radius: 15px; /* Rounded edges */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
 }
 
 /* Hero Image (Square) */
 .hero-img {
-    width: 250px; /* Adjust size */
+    width: 500px; /* Adjust size */
     height: auto;
     border-radius: 5px; /* Slight rounded edges for a softer look */
 }

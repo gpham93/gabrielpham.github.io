@@ -5,7 +5,7 @@ title: Home
 
 <section class="hero">
     <div class="hero-container">
-        <img src="{{ "/images/stock_image.jpg" | relative_url }}" alt="Your Image" class="hero-img">
+        <img src="{{ "/images/stock_image2.jpeg" | relative_url }}" alt="Your Image" class="hero-img">
         <div class="hero-text">
             <h1>
                 <img src="https://media.licdn.com/dms/image/v2/C5603AQFK1gqFFEeF5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1578091131462?e=1747872000&v=beta&t=lF8zYcmlnW17dZ1CBFByGb98yqEEAPaJnGcb3203NVQ" 
