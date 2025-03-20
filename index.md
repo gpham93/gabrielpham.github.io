@@ -24,7 +24,7 @@ title: Home
 <div class="projects-grid">
     <div class="project">
         <img src="{{ "/images/project1.jpeg" | relative_url }}" alt="Project 1" class="project-img">
-        <h3 class="project-name">📌 Knowledge Graph for Fraud Detection using Financial Transaction Data/h3>
+        <h3 class="project-name">📌 📌 Knowledge Graph for Fraud Detection using Financial Transaction Data/h3>
         <p>Created a fraud detection system that maps financial transactions, identifies anomalies, and detects suspicious activities in real time.</p>
         <a href="https://github.com/yourusername/project1" class="btn btn-primary">View Project</a>
     </div>
