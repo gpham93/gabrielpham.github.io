@@ -19,21 +19,21 @@ title: Home
 
 <div class="projects-grid">
     <div class="project">
-        <img src="{{ "/images/project1.jpg" | relative_url }}" alt="Project 1" class="project-img">
+        <img src="{{ "/images/project1.jpeg" | relative_url }}" alt="Project 1" class="project-img">
         <h3 class="project-name">📌 Knowledge Graph for Mortgage Data</h3>
         <p>Developed a graph-based enterprise data model to optimize mortgage processes.</p>
         <a href="https://github.com/yourusername/project1" class="btn btn-primary">View Project</a>
     </div>
 
     <div class="project">
-        <img src="{{ "/images/project2.jpg" | relative_url }}" alt="Project 2" class="project-img">
+        <img src="{{ "/images/project2.jpeg" | relative_url }}" alt="Project 2" class="project-img">
         <h3 class="project-name">📌 Client Outreach Automation</h3>
         <p>Built an automated outreach system using Python and data analytics.</p>
         <a href="https://github.com/yourusername/project2" class="btn btn-primary">View Project</a>
     </div>
 
     <div class="project">
-        <img src="{{ "/images/project3.jpg" | relative_url }}" alt="Project 3" class="project-img">
+        <img src="{{ "/images/project3.jpeg" | relative_url }}" alt="Project 3" class="project-img">
         <h3 class="project-name">📌 Financial Market Prediction Model</h3>
         <p>Created a machine learning model to predict stock market trends.</p>
         <a href="https://github.com/yourusername/project3" class="btn btn-primary">View Project</a>
