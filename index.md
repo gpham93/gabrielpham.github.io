@@ -12,7 +12,7 @@ title: Home
             Hi, I'm <span class="highlight">Gabriel Pham!</span>
         </h1>
         <p>A Data Analyst & Consultant specializing in Knowledge Graphs, AI, and Data Remediation.</p>
-        <a href="resume.pdf" class="btn btn-primary">Download Resume</a>
+        <a href="https://1drv.ms/w/s!AjsfM_rVXFdnjAwuHBlj9Nbh1yxl?e=3nf3Dm" class="btn btn-primary">View Resume</a>
     </div>
 </section>
 
