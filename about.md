@@ -22,8 +22,8 @@ Outside of work, I enjoy playing <strong>soccer</strong> and <strong>basketball<
     <img src="{{ "/images/vcu.jpg" | relative_url }}"  alt="VCU" style="width: 100%; border-radius: 10px;">
     <img src="{{ "/images/gt.jpg" | relative_url }}"  alt="Georgia Tech" style="width: 100%; border-radius: 10px;">
     <img src="{{ "/images/soccer.jpg" | relative_url }}"  alt="Soccer" style="width: 100%; border-radius: 10px;">
-    <img src="{{ "/images/projeccapcot1.jpg" | relative_url }}" alt="Capco" style="width: 100%; border-radius: 10px;">
+    <img src="{{ "/images/capco.jpg" | relative_url }}" alt="Capco" style="width: 100%; border-radius: 10px;">
   </div>
 </div>
-"{{ "/images/project1.jpeg" | relative_url }}" 
+
 </section>
