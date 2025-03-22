@@ -20,8 +20,8 @@ Outside of work, I enjoy playing soccer and basketball, challenging myself with 
 
   <img src="/images/vcu.jpg" alt="VCU" style="width: 100%; border-radius: 10px;">
   <img src="/images/gt.jpg" alt="Georgia Tech" style="width: 100%; border-radius: 10px;">
-  <img src="/images/soccer.png" alt="Freddie Mac" style="width: 100%; border-radius: 10px;">
-  <img src="/images/capco.png" alt="Capco" style="width: 100%; border-radius: 10px;">
+  <img src="/images/soccer.jpg" alt="Freddie Mac" style="width: 100%; border-radius: 10px;">
+  <img src="/images/capco.jpg" alt="Capco" style="width: 100%; border-radius: 10px;">
 
 </div>
 </section>
