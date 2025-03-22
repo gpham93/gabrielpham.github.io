@@ -19,11 +19,11 @@ Outside of work, I enjoy playing <strong>soccer</strong> and <strong>basketball<
 
 <div style="background-color: #2c2c2c; padding: 20px; border-radius: 12px; margin-top: 20px;">
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px;">
-    <img src="/images/vcu.jpg" alt="VCU" style="width: 100%; border-radius: 10px;">
-    <img src="/images/gt.jpg" alt="Georgia Tech" style="width: 100%; border-radius: 10px;">
-    <img src="/images/soccer.jpg" alt="Soccer" style="width: 100%; border-radius: 10px;">
-    <img src="/images/capco.jpg" alt="Capco" style="width: 100%; border-radius: 10px;">
+    <img src="{{ "/images/vcu.jpg" | relative_url }}"  alt="VCU" style="width: 100%; border-radius: 10px;">
+    <img src="{{ "/images/gt.jpg" | relative_url }}"  alt="Georgia Tech" style="width: 100%; border-radius: 10px;">
+    <img src="{{ "/images/soccer.jpg" | relative_url }}"  alt="Soccer" style="width: 100%; border-radius: 10px;">
+    <img src="{{ "/images/projeccapcot1.jpg" | relative_url }}" alt="Capco" style="width: 100%; border-radius: 10px;">
   </div>
 </div>
-
+"{{ "/images/project1.jpeg" | relative_url }}" 
 </section>
