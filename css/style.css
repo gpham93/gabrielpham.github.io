@@ -25,7 +25,7 @@
     
     /* Text Colors */
     --text-light: #f8fafc;
-    --text-muted: #94a3b8;
+    --text-muted: #cbd5e1;
     --text-dark: #0f172a;
     
     /* Shadow & Glows */
@@ -67,6 +67,10 @@ body {
 .container {
     background: transparent !important;
     max-width: 1200px;
+}
+
+.text-muted {
+    color: var(--text-muted) !important;
 }
 
 .page-wrapper {
