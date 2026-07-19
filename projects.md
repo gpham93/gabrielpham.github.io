@@ -89,4 +89,30 @@ title: Projects
             </div>
         </div>
     </div>
+
+    <!-- Project 4 -->
+    <div class="glass-card">
+        <div class="row align-items-center">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="project-img-wrapper mb-0" style="height: 220px;">
+                    <img src="{{ "/images/soccer.jpg" | relative_url }}" alt="Undefeated XI" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <span class="specialty-badge" style="background: rgba(168, 85, 247, 0.15); border-color: rgba(168, 85, 247, 0.3); color: #c084fc;">Mobile Gaming & Stats</span>
+                <h3 class="gradient-text mt-2 mb-3">Undefeated XI</h3>
+                <p class="text-light">
+                    An independent soccer simulator mobile game featuring comprehensive database architecture, player conversion metrics, and advanced team statistics.
+                </p>
+                <div class="tech-badges mb-4">
+                    <span class="tech-badge">SQL</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">iOS / Swift</span>
+                    <span class="tech-badge">SQLite</span>
+                    <span class="tech-badge">Analytics</span>
+                </div>
+                <a href="https://github.com/gpham93/undefeated-xi" class="btn-premium">View Source Code</a>
+            </div>
+        </div>
+    </div>
 </div>
