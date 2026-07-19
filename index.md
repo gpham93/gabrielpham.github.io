@@ -8,7 +8,7 @@ title: Home
     <div class="hero-text-block">
         <span class="specialty-badge">Data Analytics & Consulting</span>
         <h1>Hi, I'm <span class="gradient-text">Gabriel Pham</span></h1>
-        <p class="hero-subtitle">Knowledge Graph Lead & Analytics Consultant specializing in connected data ecosystems, artificial intelligence, and scalable data remediation.</p>
+        <p class="hero-subtitle">Data Analyst & Consultant | Co-Lead of US Graph Capability at Capco. Specializing in Knowledge Graphs, AI, and enterprise data remediation.</p>
         
         <div class="d-flex flex-wrap gap-3">
             <a href="#projects" class="btn-premium">Explore Projects</a>
@@ -99,6 +99,23 @@ title: Home
             </div>
             <a href="https://github.com/gpham93/financial-investing-chatbot" class="btn-premium w-100 mt-auto">View Source</a>
         </div>
+
+        <!-- Project 4 -->
+        <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+                <img src="{{ "/images/soccer.jpg" | relative_url }}" alt="Undefeated XI">
+            </div>
+            <h3 class="project-title">Undefeated XI</h3>
+            <p class="project-desc">An independent soccer simulator mobile game featuring comprehensive database architecture, player conversion metrics, and advanced team statistics.</p>
+            <div class="tech-badges mb-4">
+                <span class="tech-badge">SQL</span>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">iOS / Swift</span>
+                <span class="tech-badge">SQLite</span>
+                <span class="tech-badge">Analytics</span>
+            </div>
+            <a href="https://github.com/gpham93/undefeated-xi" class="btn-premium w-100 mt-auto">View Source</a>
+        </div>
     </div>
 </section>
 
@@ -157,6 +174,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: 'Fraud Detection', radius: 15, color: '#06b6d4', category: 'Project', details: 'Knowledge Graph fraud identification pipeline' },
         { id: 'Movie Recommender', radius: 15, color: '#06b6d4', category: 'Project', details: 'Graph-powered collaborative recommender' },
         { id: 'GenAI Chatbot', radius: 15, color: '#06b6d4', category: 'Project', details: 'Context-aware financial advisor chatbot' },
+        { id: 'Undefeated XI', radius: 15, color: '#06b6d4', category: 'Project', details: 'Soccer simulator game with statistical databases' },
         { id: 'Neo4j', radius: 12, color: '#14b8a6', category: 'Technology', details: 'Graph Database Management System' },
         { id: 'Python', radius: 12, color: '#14b8a6', category: 'Technology', details: 'General-purpose programming & data analysis' },
         { id: 'SQL', radius: 12, color: '#14b8a6', category: 'Technology', details: 'Relational database query language' }
@@ -184,7 +202,10 @@ document.addEventListener("DOMContentLoaded", function() {
         { source: 'Fraud Detection', target: 'Neo4j' },
         { source: 'Fraud Detection', target: 'Python' },
         { source: 'Movie Recommender', target: 'Neo4j' },
-        { source: 'GenAI Chatbot', target: 'Python' }
+        { source: 'GenAI Chatbot', target: 'Python' },
+        { source: 'Gabriel Pham', target: 'Undefeated XI' },
+        { source: 'Undefeated XI', target: 'Python' },
+        { source: 'Undefeated XI', target: 'SQL' }
     ];
 
     // Build references
