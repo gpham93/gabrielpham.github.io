@@ -21,7 +21,7 @@ title: Home
     <div class="hero-visual-block">
         <div class="profile-frame">
             <div class="profile-frame-inner">
-                <img src="https://media.licdn.com/dms/image/v2/C5603AQFK1gqFFEeF5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1578091131462?e=1747872000&v=beta&t=lF8zYcmlnW17dZ1CBFByGb98yqEEAPaJnGcb3203NVQ" alt="Gabriel Pham Profile">
+                <img src="{{ "/images/profile.png" | relative_url }}" alt="Gabriel Pham Profile">
             </div>
         </div>
     </div>
