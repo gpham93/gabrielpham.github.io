@@ -12,6 +12,37 @@ title: Projects
 </p>
 
 <div class="d-flex flex-column gap-5 mt-4">
+    <!-- SEC EDGAR Subsidiary Knowledge Graph & Agentic GraphRAG System -->
+    <div class="glass-card">
+        <div class="row align-items-center">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="project-img-wrapper mb-0" style="height: 220px;">
+                    <img src="{{ "/images/AdobeStock_271297554.jpeg" | relative_url }}" alt="SEC EDGAR Subsidiary Knowledge Graph & Agentic GraphRAG System" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <span class="specialty-badge" style="background: rgba(99, 102, 241, 0.15); border-color: rgba(99, 102, 241, 0.3); color: #a5b4fc;">Enterprise GraphRAG & AI</span>
+                <h3 class="gradient-text mt-2 mb-3">SEC EDGAR Subsidiary Knowledge Graph & Agentic GraphRAG</h3>
+                <p class="text-light">
+                    An enterprise-grade Agentic Knowledge Graph & Hybrid RAG System built on SEC EDGAR 10-K filings. The system extracts corporate subsidiary trees, executive leadership teams, industrial classifications (SIC codes), and Item 1A risk factor profiles into a unified W3C RDF/OWL Knowledge Graph validated with SHACL constraints. Features a Dual-Pass Hybrid RAG Query Planner powered by Gemini 2.0 Flash with Financial Domain Term Expansion, Splink probabilistic entity resolution, and an interactive Vis.js canvas visualizer.
+                </p>
+                <div class="tech-badges mb-4">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">RDF / OWL</span>
+                    <span class="tech-badge">SHACL</span>
+                    <span class="tech-badge">Gemini 2.0 Flash</span>
+                    <span class="tech-badge">Splink / DuckDB</span>
+                    <span class="tech-badge">Vis.js</span>
+                    <span class="tech-badge">Quarto</span>
+                </div>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="https://gpham93.github.io/sec-knowledge-graph/" target="_blank" rel="noopener noreferrer" class="btn-premium">Live Web App</a>
+                    <a href="https://github.com/gpham93/sec-knowledge-graph" target="_blank" rel="noopener noreferrer" class="btn-premium-outline">View Repository</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Project 1 -->
     <div class="glass-card">
         <div class="row align-items-center">

@@ -52,6 +52,26 @@ title: Home
     </div>
     
     <div class="projects-grid">
+        <!-- Project 0: SEC EDGAR GraphRAG -->
+        <div class="glass-card project-card">
+            <div class="project-img-wrapper">
+                <img src="{{ "/images/AdobeStock_271297554.jpeg" | relative_url }}" alt="SEC EDGAR Knowledge Graph & Agentic GraphRAG">
+            </div>
+            <h3 class="project-title">SEC EDGAR Agentic GraphRAG</h3>
+            <p class="project-desc">Enterprise RDF/OWL knowledge graph & dual-pass hybrid RAG system built on SEC EDGAR 10-Ks with SHACL constraints, Gemini 2.0, and interactive Vis.js visualizer.</p>
+            <div class="tech-badges mb-4">
+                <span class="tech-badge">RDF/OWL</span>
+                <span class="tech-badge">SHACL</span>
+                <span class="tech-badge">Gemini 2.0</span>
+                <span class="tech-badge">Splink</span>
+                <span class="tech-badge">Python</span>
+            </div>
+            <div class="d-flex gap-2 w-100 mt-auto">
+                <a href="https://gpham93.github.io/sec-knowledge-graph/" target="_blank" rel="noopener noreferrer" class="btn-premium flex-grow-1 text-center" style="padding: 0.6rem 0.8rem; font-size: 0.85rem;">Live Demo</a>
+                <a href="https://github.com/gpham93/sec-knowledge-graph" target="_blank" rel="noopener noreferrer" class="btn-premium-outline flex-grow-1 text-center" style="padding: 0.6rem 0.8rem; font-size: 0.85rem;">GitHub</a>
+            </div>
+        </div>
+
         <!-- Project 1 -->
         <div class="glass-card project-card">
             <div class="project-img-wrapper">
@@ -175,6 +195,7 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: 'Movie Recommender', radius: 15, color: '#06b6d4', category: 'Project', details: 'Graph-powered collaborative recommender' },
         { id: 'GenAI Chatbot', radius: 15, color: '#06b6d4', category: 'Project', details: 'Context-aware financial advisor chatbot' },
         { id: 'Undefeated XI', radius: 15, color: '#06b6d4', category: 'Project', details: 'Soccer simulator game with statistical databases' },
+        { id: 'SEC GraphRAG', radius: 15, color: '#06b6d4', category: 'Project', details: 'Enterprise SEC EDGAR 10-K Knowledge Graph & Hybrid Agentic RAG' },
         { id: 'Neo4j', radius: 12, color: '#14b8a6', category: 'Technology', details: 'Graph Database Management System' },
         { id: 'Python', radius: 12, color: '#14b8a6', category: 'Technology', details: 'General-purpose programming & data analysis' },
         { id: 'SQL', radius: 12, color: '#14b8a6', category: 'Technology', details: 'Relational database query language' }
@@ -205,7 +226,11 @@ document.addEventListener("DOMContentLoaded", function() {
         { source: 'GenAI Chatbot', target: 'Python' },
         { source: 'Gabriel Pham', target: 'Undefeated XI' },
         { source: 'Undefeated XI', target: 'Python' },
-        { source: 'Undefeated XI', target: 'SQL' }
+        { source: 'Undefeated XI', target: 'SQL' },
+        { source: 'Gabriel Pham', target: 'SEC GraphRAG' },
+        { source: 'SEC GraphRAG', target: 'Knowledge Graphs' },
+        { source: 'SEC GraphRAG', target: 'AI & LLMs' },
+        { source: 'SEC GraphRAG', target: 'Python' }
     ];
 
     // Build references
